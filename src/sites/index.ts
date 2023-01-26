@@ -33,7 +33,7 @@ export const Sites: Record<SiteId, Site> = {
 	instagram: {
 		label: 'Instagram',
 		domain: 'instagram.com',
-		paths: ['/'],
+		paths: ['/','/explore/'],
 		origins: ['http://www.instagram.com/*', 'https://www.instagram.com/*'],
 		css: instagramCss,
 	},
